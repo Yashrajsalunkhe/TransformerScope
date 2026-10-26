@@ -1,4 +1,4 @@
-# LLM Attention Visualizer — Complete Project Guide
+# TransformerScope — Complete Project Guide
 
 Deep-dive documentation of every file, function, and data flow in this project.
 Read this to understand how the app works end-to-end without reading source first.
@@ -18,7 +18,7 @@ Interactive **Streamlit web app** that loads a pre-trained transformer model, ru
 ## 2. Project Structure
 
 ```
-llm-attention-visualizer/
+TransformerScope/
 ├── app.py                          # Main Streamlit app — UI + orchestration (277 lines)
 ├── src/
 │   ├── __init__.py                 # Empty package marker
@@ -83,7 +83,7 @@ Each row sums to ~1.0 (softmax over keys).
 Streamlit script that runs top-to-bottom on every widget interaction.
 
 **Page setup (lines 19–30):**
-- `page_title="LLM Attention Visualizer"`, wide layout, sidebar expanded.
+- `page_title="TransformerScope"`, wide layout, sidebar expanded.
 
 **Sidebar — Configuration (lines 33–48):**
 - Model dropdown with 4 choices (default `distilbert-base-uncased`):
@@ -236,8 +236,8 @@ First run downloads weights from Hugging Face Hub (needs internet). Cached after
 
 ```bash
 # 1. Clone
-git clone https://github.com/YOUR_USERNAME/llm-attention-visualizer.git
-cd llm-attention-visualizer
+git clone https://github.com/Yashrajsalunkhe/TransformerScope.git
+cd TransformerScope
 
 # 2. Virtual env (recommended)
 python -m venv .venv

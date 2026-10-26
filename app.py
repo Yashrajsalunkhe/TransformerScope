@@ -18,14 +18,14 @@ from src.visualizer import (
 
 # Page configuration
 st.set_page_config(
-    page_title="LLM Attention Visualizer",
+    page_title="TransformerScope",
     page_icon="🔍",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 # Title and description
-st.title("🔍 LLM Attention Visualizer")
+st.title("🔍 TransformerScope")
 st.markdown("**Interactive tool for analyzing attention patterns in transformer models**")
 st.markdown("---")
 
@@ -271,7 +271,8 @@ if st.button("🚀 Analyze Attention Patterns", type="primary"):
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #666;'>
-    <p>🔍 <strong>LLM Attention Visualizer</strong> | Understanding transformer models through attention analysis</p>
+    <p>🔍 <strong>TransformerScope</strong> | Understanding transformer models through attention analysis</p>
     <p>Select different analysis types and layers to explore how your chosen model processes text</p>
+    <p>Created by <strong>Yashraj Salunkhe</strong></p>
 </div>
 """, unsafe_allow_html=True)

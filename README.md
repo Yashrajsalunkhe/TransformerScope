@@ -1,4 +1,4 @@
-# LLM Attention Visualizer 🔍
+# TransformerScope 🔍
 
 Interactive tool for analyzing attention patterns in transformer models, helping understand how LLMs process different types of text inputs.
 
@@ -20,8 +20,8 @@ Interactive tool for analyzing attention patterns in transformer models, helping
 
 ### Installation
 ```bash
-git clone https://github.com/YOUR_USERNAME/llm-attention-visualizer.git
-cd llm-attention-visualizer
+git clone https://github.com/Yashrajsalunkhe/TransformerScope.git
+cd TransformerScope
 pip install -r requirements.txt
 ```
 
@@ -31,17 +31,6 @@ streamlit run app.py
 ```
 
 The app will open in your browser at `http://localhost:8501`
-
-### Deploy on Streamlit Community Cloud
-
-1. Push this repository to GitHub.
-2. Sign in at [share.streamlit.io](https://share.streamlit.io/) and choose **New app**.
-3. Select the repository and branch, set **Main file path** to `app.py`, and deploy.
-
-The repository includes `runtime.txt`, `requirements.txt`, and `.streamlit/config.toml` so
-Streamlit Cloud can install the expected Python runtime and dependencies automatically.
-The first analysis downloads the selected Hugging Face model; the default
-`distilbert-base-uncased` model is the best choice for the memory limits of a free instance.
 
 ## 💡 How to Use
 
@@ -158,6 +147,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Streamlit for the amazing web framework
 - The attention mechanism research community
 
----
-
-**Built with ❤️ for understanding transformer models**
