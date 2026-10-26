@@ -1,0 +1,22 @@
+# Sample texts for testing attention patterns
+
+## Simple Sentence
+The cat sat on the mat.
+
+## Pronoun Resolution  
+John gave Mary the book. She thanked him for it.
+
+## Complex Sentence
+The quick brown fox jumps over the lazy dog while the sun sets beautifully over the distant mountains.
+
+## Question
+What is the capital of France and why is it important for European politics?
+
+## Attention Pattern Test
+Alice told Bob that she would meet him at the restaurant. He said he would be there.
+
+## Technical Text
+Machine learning models use attention mechanisms to focus on relevant parts of the input sequence.
+
+## Story Fragment
+The old wizard looked at the young apprentice. His eyes twinkled with ancient wisdom as he prepared to share the secret.
